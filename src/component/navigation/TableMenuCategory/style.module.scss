@@ -1,0 +1,36 @@
+.box__item__category {
+    position: relative;
+    cursor: pointer;
+    padding: 0 20px;
+    .item__category {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        border-top: 1px solid #ebebeb;
+        padding: 10px 0;
+    }
+    .modal__dropdown {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 279px;
+        width: 100%;
+    }
+    &:hover {
+        color: #80bb35;
+        .modal__dropdown {
+            display: block;
+            color: #363636;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

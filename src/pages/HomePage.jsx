@@ -1,9 +1,19 @@
 import LayoutMain from "../layout/main"
-import TitleStore from "../component/banner/TitleStore";
+import ContentStore from "../component/banner/Content";
+import MenuSideBar from "../component/navigation/MenuSideBar";
+import TableMenu from "../component/navigation/TableMenuCategory/TableMenu";
+import { useEffect } from "react";
 const HomePage = () => {
+
+    useEffect(() => {
+        
+    },[])
+
     return (
         <div className="bg-white">
-           <TitleStore />
+            <ContentStore />
+            <MenuSideBar />
+            <TableMenu />
         </div>
     )
 }

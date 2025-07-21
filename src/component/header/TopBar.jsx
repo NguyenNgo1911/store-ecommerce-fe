@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ const TopBar = () => {
                     Hotline: <span className='font-normal'>0901.417.826</span>
                 </li>
                 <li className='font-semibold'>
-                    Địa chỉ: <span className='font-normal'>69 Đỗ Công Tường, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</span>
+                    Địa chỉ: <span className='font-normal'>69 Đỗ Công Tường, p.Tân Quý, q.Tân Phú, TP.HCM</span>
                 </li>
             </ul>
             <div className='float-right flex leading-10 gap-[4px] items-center'>
@@ -25,5 +24,4 @@ const TopBar = () => {
     </div>
   )
 }
-
 export default TopBar
